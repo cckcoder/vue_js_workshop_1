@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    font-family: tahoma;
+    background-color: #f8f0dd;
+    color: #282828;
+}
+
+.nav-bar {
+    background: linear-gradient(-90deg, #d3b090, #936e4e);
+    height: 60px;
+    margin-bottom: 25px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.57);
+}
+
+.product-display {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.product-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
